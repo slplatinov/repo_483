@@ -94,10 +94,10 @@ case 8:
     значение 'abcde'. Обращаясь к отдельным символам этой строки 
     выведите на экран символ 'a', 
     символ 'b', символ 'e'.`);
-            let m_str =  "abcde"';
+            // let m_str =  "abcde"';
         //    let n_pos = 1;
             // let l_str = length (m_str);
-            alarm("ok")
+            // alarm("ok")
             // n_pos = prompt(`"Введите № позиции, не более ${l_str}"`);
             // let simv= m_str.charAt(n_pos);
             // alarm (simv);
