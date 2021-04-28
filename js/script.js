@@ -1,3 +1,7 @@
+let ex = Number(prompt("Введите номер задачи 6-7: "))
+switch (ex)
+{
+    case 2:
 // Ex.2
 // Пользователь вводит длину оснований трапеции (a и b),
 //  а также высоту трапеции h. 
@@ -9,6 +13,7 @@
 
 // let a = 0, b = 0, c=0; 
 let ex = Number(prompt("Введите номер задачи: 2,3 или4"))
+
 if (ex == 2)
 {
 alert ("Ex2")   
@@ -58,9 +63,48 @@ alert(`Площадь трапеции будет равна =   ${c}`);
             else {
                 alert ("Не верно!!!");
             }
-   
+break;
+case 6:
+    alert(`"Ex6" Даны переменные a = 10 и b = 3.
+    Найдите остаток от деления a на b.`);
+          let a1 = 10;
+          let b1 = 3;
+          let c1 = a1 % b1;  
+        //   c1 = parceInt(c1, 10);
+          alert(parseInt(c1));
 
 
+break;
+case 7:
+    alert(`"Ex7" С помощью цикла for сформируйте строку '123456789' 
+            и запишите ее в переменную str.`);
+         let str = "";   
+         let j = 0; 
+
+          for (j = 1; j<10; j++)
+                {
+                str = str + "" + j ;           
+
+                }
+                alert(str);
+
+break;
+case 8:
+    alert(`"Ex8" Создайте переменную str и присвойте ей 
+    значение 'abcde'. Обращаясь к отдельным символам этой строки 
+    выведите на экран символ 'a', 
+    символ 'b', символ 'e'.`);
+            let m_str =  "abcde"';
+        //    let n_pos = 1;
+            // let l_str = length (m_str);
+            alarm("ok")
+            // n_pos = prompt(`"Введите № позиции, не более ${l_str}"`);
+            // let simv= m_str.charAt(n_pos);
+            // alarm (simv);
+
+break;
+}
+alert ("End");
 // let kursDollara = 74.8;
 // let kursEuro = 90.5;
 // let sumDollars = 0, sumEuro = 0;
