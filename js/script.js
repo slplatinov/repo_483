@@ -94,15 +94,32 @@ case 8:
     значение 'abcde'. Обращаясь к отдельным символам этой строки 
     выведите на экран символ 'a', 
     символ 'b', символ 'e'.`);
-            // let m_str =  "abcde"';
-        //    let n_pos = 1;
-            // let l_str = length (m_str);
-            // alarm("ok")
-            // n_pos = prompt(`"Введите № позиции, не более ${l_str}"`);
-            // let simv= m_str.charAt(n_pos);
-            // alarm (simv);
+            let m_str =  'abcde';
+            let n_pos = 1;
+            let l_str = m_str.length;
+            
+            n_pos = prompt(`"Введите № позиции, не более ${l_str}"`);
+            let simv= m_str.charAt(n_pos);
+            alert (simv);
 
 break;
+case 10:
+
+
+    let A = [];
+    let B = [];
+    let AB = []; 
+        A = ['a', 'b', 'c'];
+        // console.log(A[1]);
+        B =[1, 2, 3];
+        // console.log(B[1]);
+        AB = A.slice([0],A.length+1);
+        // console.log(A.length);
+        AB = A.concat(B);
+    for (let i in AB){
+        console.log(AB[i]); 
+            }
+break;              
 }
 alert ("End");
 // let kursDollara = 74.8;
