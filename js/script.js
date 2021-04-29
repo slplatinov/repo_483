@@ -117,8 +117,8 @@ case 10:
         // console.log(A.length);
         AB = A.concat(B);
     for (let i in AB){
-        // console.log(AB[i]); 
-        alert(AB[i]);
+        console.log(AB[i]); 
+        // alert(AB[i]);
             }
 break;              
 }
