@@ -1,4 +1,4 @@
-let ex = Number(prompt("Введите номер задачи 6-7: "))
+let ex = Number(prompt("Введите номер задачи 6-8, 10: "))
 switch (ex)
 {
     case 2:
@@ -117,7 +117,8 @@ case 10:
         // console.log(A.length);
         AB = A.concat(B);
     for (let i in AB){
-        console.log(AB[i]); 
+        // console.log(AB[i]); 
+        alert(AB[i]);
             }
 break;              
 }
